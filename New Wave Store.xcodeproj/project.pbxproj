@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1458119292BA8BE00ED4E0B /* New_Wave_StoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1458118292BA8BE00ED4E0B /* New_Wave_StoreApp.swift */; };
+		E145811B292BA8BE00ED4E0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145811A292BA8BE00ED4E0B /* ContentView.swift */; };
+		E145811D292BA8C000ED4E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E145811C292BA8C000ED4E0B /* Assets.xcassets */; };
+		E1458120292BA8C000ED4E0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E145811F292BA8C000ED4E0B /* Preview Assets.xcassets */; };
+		E145812A292BA8C100ED4E0B /* New_Wave_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1458129292BA8C100ED4E0B /* New_Wave_StoreTests.swift */; };
+		E1458134292BA8C100ED4E0B /* New_Wave_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1458133292BA8C100ED4E0B /* New_Wave_StoreUITests.swift */; };
+		E1458136292BA8C100ED4E0B /* New_Wave_StoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1458135292BA8C100ED4E0B /* New_Wave_StoreUITestsLaunchTests.swift */; };
+		E1458143292BAA9200ED4E0B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1458142292BAA9200ED4E0B /* Product.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1458126292BA8C100ED4E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E145810D292BA8BE00ED4E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1458114292BA8BE00ED4E0B;
+			remoteInfo = "New Wave Store";
+		};
+		E1458130292BA8C100ED4E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E145810D292BA8BE00ED4E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1458114292BA8BE00ED4E0B;
+			remoteInfo = "New Wave Store";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1458115292BA8BE00ED4E0B /* New Wave Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Wave Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1458118292BA8BE00ED4E0B /* New_Wave_StoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_StoreApp.swift; sourceTree = "<group>"; };
+		E145811A292BA8BE00ED4E0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E145811C292BA8C000ED4E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E145811F292BA8C000ED4E0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1458125292BA8C100ED4E0B /* New Wave StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New Wave StoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1458129292BA8C100ED4E0B /* New_Wave_StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_StoreTests.swift; sourceTree = "<group>"; };
+		E145812F292BA8C100ED4E0B /* New Wave StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New Wave StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1458133292BA8C100ED4E0B /* New_Wave_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_StoreUITests.swift; sourceTree = "<group>"; };
+		E1458135292BA8C100ED4E0B /* New_Wave_StoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_StoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1458142292BAA9200ED4E0B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1458112292BA8BE00ED4E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1458122292BA8C100ED4E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E145812C292BA8C100ED4E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E145810C292BA8BE00ED4E0B = {
+			isa = PBXGroup;
+			children = (
+				E1458117292BA8BE00ED4E0B /* New Wave Store */,
+				E1458128292BA8C100ED4E0B /* New Wave StoreTests */,
+				E1458132292BA8C100ED4E0B /* New Wave StoreUITests */,
+				E1458116292BA8BE00ED4E0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1458116292BA8BE00ED4E0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1458115292BA8BE00ED4E0B /* New Wave Store.app */,
+				E1458125292BA8C100ED4E0B /* New Wave StoreTests.xctest */,
+				E145812F292BA8C100ED4E0B /* New Wave StoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1458117292BA8BE00ED4E0B /* New Wave Store */ = {
+			isa = PBXGroup;
+			children = (
+				E1458145292BAC8B00ED4E0B /* Views */,
+				E1458144292BAC5E00ED4E0B /* Model */,
+				E1458118292BA8BE00ED4E0B /* New_Wave_StoreApp.swift */,
+				E145811C292BA8C000ED4E0B /* Assets.xcassets */,
+				E145811E292BA8C000ED4E0B /* Preview Content */,
+			);
+			path = "New Wave Store";
+			sourceTree = "<group>";
+		};
+		E145811E292BA8C000ED4E0B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E145811F292BA8C000ED4E0B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1458128292BA8C100ED4E0B /* New Wave StoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1458129292BA8C100ED4E0B /* New_Wave_StoreTests.swift */,
+			);
+			path = "New Wave StoreTests";
+			sourceTree = "<group>";
+		};
+		E1458132292BA8C100ED4E0B /* New Wave StoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1458133292BA8C100ED4E0B /* New_Wave_StoreUITests.swift */,
+				E1458135292BA8C100ED4E0B /* New_Wave_StoreUITestsLaunchTests.swift */,
+			);
+			path = "New Wave StoreUITests";
+			sourceTree = "<group>";
+		};
+		E1458144292BAC5E00ED4E0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1458142292BAA9200ED4E0B /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1458145292BAC8B00ED4E0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E145811A292BA8BE00ED4E0B /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1458114292BA8BE00ED4E0B /* New Wave Store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1458139292BA8C100ED4E0B /* Build configuration list for PBXNativeTarget "New Wave Store" */;
+			buildPhases = (
+				E1458111292BA8BE00ED4E0B /* Sources */,
+				E1458112292BA8BE00ED4E0B /* Frameworks */,
+				E1458113292BA8BE00ED4E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "New Wave Store";
+			productName = "New Wave Store";
+			productReference = E1458115292BA8BE00ED4E0B /* New Wave Store.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1458124292BA8C100ED4E0B /* New Wave StoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E145813C292BA8C100ED4E0B /* Build configuration list for PBXNativeTarget "New Wave StoreTests" */;
+			buildPhases = (
+				E1458121292BA8C100ED4E0B /* Sources */,
+				E1458122292BA8C100ED4E0B /* Frameworks */,
+				E1458123292BA8C100ED4E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1458127292BA8C100ED4E0B /* PBXTargetDependency */,
+			);
+			name = "New Wave StoreTests";
+			productName = "New Wave StoreTests";
+			productReference = E1458125292BA8C100ED4E0B /* New Wave StoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E145812E292BA8C100ED4E0B /* New Wave StoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E145813F292BA8C100ED4E0B /* Build configuration list for PBXNativeTarget "New Wave StoreUITests" */;
+			buildPhases = (
+				E145812B292BA8C100ED4E0B /* Sources */,
+				E145812C292BA8C100ED4E0B /* Frameworks */,
+				E145812D292BA8C100ED4E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1458131292BA8C100ED4E0B /* PBXTargetDependency */,
+			);
+			name = "New Wave StoreUITests";
+			productName = "New Wave StoreUITests";
+			productReference = E145812F292BA8C100ED4E0B /* New Wave StoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E145810D292BA8BE00ED4E0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E1458114292BA8BE00ED4E0B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E1458124292BA8C100ED4E0B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E1458114292BA8BE00ED4E0B;
+					};
+					E145812E292BA8C100ED4E0B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E1458114292BA8BE00ED4E0B;
+					};
+				};
+			};
+			buildConfigurationList = E1458110292BA8BE00ED4E0B /* Build configuration list for PBXProject "New Wave Store" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E145810C292BA8BE00ED4E0B;
+			productRefGroup = E1458116292BA8BE00ED4E0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1458114292BA8BE00ED4E0B /* New Wave Store */,
+				E1458124292BA8C100ED4E0B /* New Wave StoreTests */,
+				E145812E292BA8C100ED4E0B /* New Wave StoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1458113292BA8BE00ED4E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1458120292BA8C000ED4E0B /* Preview Assets.xcassets in Resources */,
+				E145811D292BA8C000ED4E0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1458123292BA8C100ED4E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E145812D292BA8C100ED4E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1458111292BA8BE00ED4E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E145811B292BA8BE00ED4E0B /* ContentView.swift in Sources */,
+				E1458119292BA8BE00ED4E0B /* New_Wave_StoreApp.swift in Sources */,
+				E1458143292BAA9200ED4E0B /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1458121292BA8C100ED4E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E145812A292BA8C100ED4E0B /* New_Wave_StoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E145812B292BA8C100ED4E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1458136292BA8C100ED4E0B /* New_Wave_StoreUITestsLaunchTests.swift in Sources */,
+				E1458134292BA8C100ED4E0B /* New_Wave_StoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1458127292BA8C100ED4E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1458114292BA8BE00ED4E0B /* New Wave Store */;
+			targetProxy = E1458126292BA8C100ED4E0B /* PBXContainerItemProxy */;
+		};
+		E1458131292BA8C100ED4E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1458114292BA8BE00ED4E0B /* New Wave Store */;
+			targetProxy = E1458130292BA8C100ED4E0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1458137292BA8C100ED4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1458138292BA8C100ED4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E145813A292BA8C100ED4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"New Wave Store/Preview Content\"";
+				DEVELOPMENT_TEAM = 2U47QS475V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "messi.New-Wave-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E145813B292BA8C100ED4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"New Wave Store/Preview Content\"";
+				DEVELOPMENT_TEAM = 2U47QS475V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "messi.New-Wave-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E145813D292BA8C100ED4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U47QS475V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "messi.New-Wave-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New Wave Store.app/New Wave Store";
+			};
+			name = Debug;
+		};
+		E145813E292BA8C100ED4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U47QS475V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "messi.New-Wave-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New Wave Store.app/New Wave Store";
+			};
+			name = Release;
+		};
+		E1458140292BA8C100ED4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U47QS475V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "messi.New-Wave-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "New Wave Store";
+			};
+			name = Debug;
+		};
+		E1458141292BA8C100ED4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U47QS475V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "messi.New-Wave-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "New Wave Store";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1458110292BA8BE00ED4E0B /* Build configuration list for PBXProject "New Wave Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1458137292BA8C100ED4E0B /* Debug */,
+				E1458138292BA8C100ED4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1458139292BA8C100ED4E0B /* Build configuration list for PBXNativeTarget "New Wave Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E145813A292BA8C100ED4E0B /* Debug */,
+				E145813B292BA8C100ED4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E145813C292BA8C100ED4E0B /* Build configuration list for PBXNativeTarget "New Wave StoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E145813D292BA8C100ED4E0B /* Debug */,
+				E145813E292BA8C100ED4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E145813F292BA8C100ED4E0B /* Build configuration list for PBXNativeTarget "New Wave StoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1458140292BA8C100ED4E0B /* Debug */,
+				E1458141292BA8C100ED4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E145810D292BA8BE00ED4E0B /* Project object */;
+}
